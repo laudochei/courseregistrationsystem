@@ -7,9 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HomeController {
-
-    
-
+  
     @GetMapping(value={"/", "/home"})
     public ModelAndView login(){
         ModelAndView modelAndView = new ModelAndView();
@@ -17,7 +15,5 @@ public class HomeController {
         return modelAndView;
     }
 
-
-
-
+    
 }
